@@ -14,6 +14,10 @@ const skillGroups = Object.entries(skills)
 function App() {
   return (
     <div className="site-shell">
+      <div className="floating-orb orb-one" aria-hidden="true" />
+      <div className="floating-orb orb-two" aria-hidden="true" />
+      <div className="floating-grid" aria-hidden="true" />
+
       <header className="topbar">
         <a className="brand" href="#top">
           {profile.name}
@@ -29,6 +33,11 @@ function App() {
       <main id="top">
         <section className="hero">
           <div className="hero-copy">
+            <div className="hero-badges" aria-hidden="true">
+              <span>React</span>
+              <span>Laravel</span>
+              <span>APIs</span>
+            </div>
             <p className="eyebrow">MCA 2025 • PHP Laravel Developer • React Builder</p>
             <h1>{profile.title}</h1>
             <p className="lede">{profile.intro}</p>
@@ -43,14 +52,36 @@ function App() {
           </div>
 
           <aside className="hero-card">
-            <p className="card-label">Now</p>
-            <h2>{profile.name}</h2>
-            <p>{profile.summary}</p>
-            <ul className="meta-list">
-              <li>{profile.location}</li>
-              <li>{profile.phone}</li>
-              <li>{profile.email}</li>
-            </ul>
+            <div className="portrait-scene" aria-hidden="true">
+              <div className="portrait-ring ring-one" />
+              <div className="portrait-ring ring-two" />
+              <div className="portrait-card">
+                <div className="portrait-illustration">
+                  <div className="hair-back" />
+                  <div className="neck" />
+                  <div className="shoulders" />
+                  <div className="face">
+                    <span className="eye left" />
+                    <span className="eye right" />
+                    <span className="mouth" />
+                  </div>
+                  <div className="hair-front" />
+                  <div className="blazer" />
+                  <div className="inner-top" />
+                </div>
+              </div>
+            </div>
+
+            <div className="hero-card-copy">
+              <p className="card-label">Now</p>
+              <h2>{profile.name}</h2>
+              <p>{profile.summary}</p>
+              <ul className="meta-list">
+                <li>{profile.location}</li>
+                <li>{profile.phone}</li>
+                <li>{profile.email}</li>
+              </ul>
+            </div>
           </aside>
         </section>
 
