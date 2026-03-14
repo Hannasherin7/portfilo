@@ -7,9 +7,9 @@ function HomePage() {
       <section className="hero hero-home">
         <div className="hero-copy">
           <div className="hero-badges" aria-hidden="true">
-            <span>React</span>
-            <span>Laravel</span>
-            <span>Full-stack</span>
+            <span>Programming</span>
+            <span>Java</span>
+            <span>Problem solving</span>
           </div>
           <p className="eyebrow">{siteIntro.kicker}</p>
           <h1>{profile.title}</h1>

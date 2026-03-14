@@ -29,9 +29,16 @@ function Layout() {
         <div className="site-intro-core">
           <div className="intro-circle">
             <svg viewBox="0 0 220 220" className="intro-circle-svg">
-              <circle cx="110" cy="110" r="84" pathLength="100" />
+              <circle cx="110" cy="110" r="84" pathLength="100" className="intro-ring-base" />
+              <circle cx="110" cy="110" r="68" pathLength="100" className="intro-ring-inner" />
+              <path d="M64 110H92L108 82L126 138L144 110H156" className="intro-signal-line" />
+              <circle cx="64" cy="110" r="5" className="intro-node" />
+              <circle cx="108" cy="82" r="5" className="intro-node" />
+              <circle cx="126" cy="138" r="5" className="intro-node" />
+              <circle cx="156" cy="110" r="5" className="intro-node" />
             </svg>
             <div className="intro-circle-bloom" />
+            <div className="intro-circle-grid" />
           </div>
           <p className="intro-kicker">Launching portfolio</p>
           <h2>{profile.shortName}</h2>

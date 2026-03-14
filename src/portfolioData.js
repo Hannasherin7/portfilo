@@ -1,18 +1,18 @@
 export const profile = {
   name: 'Hanna Sherin',
   shortName: 'Hanna',
-  title: 'Full-stack developer building clear interfaces and reliable backend systems.',
+  title: 'Software developer focused on programming, clean logic, and dependable systems.',
   longTitle:
-    'I design and build modern web products with React on the front end and Laravel, Node.js, and database-driven business logic behind the scenes.',
+    'I build software with strong problem-solving foundations, practical interfaces, and backend logic that stays readable as systems grow.',
   location: 'Calicut, Kerala, India',
   email: 'hannasherin7110@gmail.com',
   phone: '+91 95394 97110',
   intro:
-    'I like digital products that feel thoughtful at the surface and disciplined underneath. My work usually lives in that middle ground between interface design, API integration, and backend structure.',
+    'I like software that feels thoughtful on the surface and disciplined underneath. I am especially interested in programming fundamentals, data structures, algorithmic thinking, and systems that remain clear as they scale.',
   summary:
-    'MCA graduate from 2025, currently working as a PHP Laravel Developer at Bpract Software Solutions. I have hands-on experience across MERN development, Laravel applications, REST APIs, MySQL, MongoDB, and collaborative Git workflows.',
+    'MCA graduate from 2025 with hands-on experience in Java, C, React, Node.js, REST APIs, MySQL, MongoDB, and collaborative Git workflows. I currently work on backend-heavy client systems while building stronger programming-focused projects alongside that work.',
   personalStatement:
-    'My goal is to build software that is both useful and dependable. That means simple user flows, readable architecture, and systems that continue to make sense when the product gets more complex.',
+    'My goal is to build software that is both useful and dependable. That means clear logic, readable architecture, and systems that continue to make sense when the product gets more complex.',
   links: [
     { label: 'GitHub', href: 'https://github.com/Hannasherin7' },
     { label: 'LinkedIn', href: 'http://linkedin.com/in/hanna-sherin916854272' },
@@ -29,15 +29,15 @@ export const siteIntro = {
 export const highlights = [
   {
     title: 'Current role',
-    text: 'Building backend features for MLM-focused PHP Laravel projects on active client work since May 2025.',
+    text: 'Building backend features and business logic for active client systems since May 2025.',
   },
   {
     title: 'Main stack',
-    text: 'React, Laravel, Node.js, Express, MySQL, MongoDB, REST APIs, and Git-based workflows.',
+    text: 'Java, C, React, Node.js, MySQL, MongoDB, REST APIs, and Git-based workflows.',
   },
   {
     title: 'Working style',
-    text: 'Practical, collaborative, and strongly focused on products that need both clarity and reliability.',
+    text: 'Practical, collaborative, and strongly focused on programming clarity, reliability, and maintainable structure.',
   },
 ]
 
@@ -65,9 +65,9 @@ export const experience = [
     company: 'Bpract Software Solutions',
     period: 'May 2025 - Present',
     description:
-      'Developing backend functionality mainly for MLM projects using PHP and Laravel, implementing business logic, working with database-driven systems, and collaborating in agile development cycles.',
+      'Developing backend functionality using PHP and Laravel, implementing business logic, working with database-driven systems, and collaborating in agile development cycles.',
     bullets: [
-      'Build and maintain backend features in PHP and Laravel for MLM-based applications.',
+      'Build and maintain backend features in PHP and Laravel for live client applications.',
       'Work on live client systems with complex database and business-logic dependencies.',
       'Collaborate with teams through sprint-based delivery and version control workflows.',
     ],
@@ -96,53 +96,53 @@ export const education = [
 ]
 
 export const skills = {
+  programming: ['Java', 'C', 'JavaScript', 'Python'],
   frontend: ['React.js', 'HTML5', 'CSS3', 'Bootstrap'],
-  backend: ['PHP', 'Laravel', 'Node.js', 'Express.js'],
+  backend: ['PHP', 'Node.js', 'Express.js', 'Spring Boot'],
   databases: ['MySQL', 'MongoDB', 'SQL'],
-  languages: ['JavaScript', 'Python', 'Java', 'C'],
   tools: ['Git', 'GitHub', 'VS Code', 'Postman'],
-  architecture: ['REST API', 'JWT Auth', 'MVC Architecture'],
+  foundations: ['Data Structures', 'Algorithms', 'Problem Solving', 'REST API', 'MVC Architecture'],
 }
 
 export const projects = [
   {
-    slug: 'ecoharvest',
-    name: 'EcoHarvest',
-    eyebrow: 'Featured project',
-    stack: ['MongoDB', 'Express', 'React', 'Node.js', 'Python'],
+    slug: 'dsa-visualizer',
+    name: 'DSA Visualizer',
+    eyebrow: 'Java + React project',
+    stack: ['Java', 'Spring Boot', 'React', 'Data Structures', 'Algorithms'],
     summary:
-      'An e-commerce platform connecting farmers directly with consumers for organic produce discovery, ordering, and community-led content.',
+      'An interactive learning tool that visualizes core algorithms and data structures step by step using a React frontend and a Java Spring Boot backend.',
     challenge:
-      'The project needed to combine commerce, agricultural information, and user engagement in one system without making the experience feel fragmented.',
+      'I wanted a project that felt closer to programming-focused software engineering than a standard CRUD build, while still being visual and easy to explain.',
     solution:
-      'I approached it as a multi-layered product with separate user actions for ordering, crop intelligence, recipes, and storytelling, all supported through a MERN foundation and Python-based ML integration.',
+      'I designed the system so the Java backend generates structured execution steps and the React frontend renders those states for bubble sort, binary search, stack, queue, circular queue, and linked list walkthroughs.',
     outcome:
-      'The result is a more ambitious full-stack product that shows my ability to work across user flows, data structures, and feature coordination.',
+      'The project highlights my interest in programming fundamentals, problem solving, and building software that can explain its own logic clearly.',
     features: [
-      'Farmer-to-consumer product marketplace',
-      'Order tracking workflows',
-      'Crop yield prediction integration',
-      'Recipe sharing and farmer blog content',
+      'Step-by-step algorithm and data structure visualization',
+      'Java Spring Boot backend with dedicated execution endpoints',
+      'React interface for switching structures and walking through each step',
+      'Built-in explanation layer for what each algorithm does and why it matters',
     ],
   },
   {
-    slug: 'blog-sharing-website',
-    name: 'Blog Sharing Website',
-    eyebrow: 'MERN project',
-    stack: ['MongoDB', 'Express', 'React', 'Node.js'],
+    slug: 'ecoharvest',
+    name: 'EcoHarvest',
+    eyebrow: 'ML-enhanced project',
+    stack: ['MongoDB', 'Express', 'React', 'Node.js', 'Python'],
     summary:
-      'A blog platform where users can register, create, edit, and manage their own posts with secure authentication and controlled access.',
+      'An e-commerce platform connecting farmers directly with consumers, with machine-learning-assisted crop yield prediction built into the broader product experience.',
     challenge:
-      'The main requirement was to keep the publishing workflow straightforward while maintaining secure, user-specific control over blog content.',
+      'The project needed to combine commerce, agricultural information, user engagement, and predictive intelligence in one system without making the experience feel fragmented.',
     solution:
-      'I used the MERN stack to implement authentication, CRUD operations, and user-bound content access while keeping the UI clean and easy to navigate.',
+      'I approached it as a multi-layered product with separate user actions for ordering, crop intelligence, recipes, and storytelling, all supported through a MERN foundation and a Python-based machine learning module for crop yield prediction.',
     outcome:
-      'This project strengthened my MERN workflow around authentication, full-stack data handling, and user-managed content systems.',
+      'The result is a more ambitious product that shows my ability to connect application workflows with machine learning support and feature coordination.',
     features: [
-      'Secure login and registration',
-      'Post creation, update, and deletion',
-      'User-specific content control',
-      'Database-driven blog management',
+      'Farmer-to-consumer product marketplace',
+      'Order tracking workflows',
+      'Machine-learning-powered crop yield prediction',
+      'Recipe sharing and farmer blog content',
     ],
   },
   {

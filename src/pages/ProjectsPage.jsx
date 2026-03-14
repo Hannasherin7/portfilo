@@ -6,7 +6,7 @@ function ProjectsPage() {
     <main className="page">
       <section className="page-hero">
         <p className="eyebrow">Projects</p>
-        <h1>Selected work across Laravel, MERN, and product-style web systems.</h1>
+        <h1>Selected work across programming-focused builds, machine learning features, and product-style software systems.</h1>
         <p className="lede narrow">
           These projects reflect how I think about structure, workflows, and user-facing clarity.
         </p>

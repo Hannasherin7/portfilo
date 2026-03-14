@@ -8,18 +8,31 @@ function AboutPage() {
       <section className="about-hero">
         <div className="about-hero-copy">
           <p className="eyebrow">About</p>
-          <h1>Hi, I&apos;m Hanna. I build web products that feel calm, clear, and dependable.</h1>
+          <h1>Hi, I&apos;m Hanna. I build software that feels clear, dependable, and grounded in strong logic.</h1>
           <p className="lede narrow">{profile.intro}</p>
           <p className="about-hero-note">
-            I currently work as a PHP Laravel Developer, but I also enjoy building across the full
-            stack, especially when interface clarity and backend structure need to work together.
+            I currently work on backend-heavy development, and I am especially interested in
+            programming-focused work where data structures, algorithms, and system logic matter.
           </p>
         </div>
 
         <aside className="about-hero-visual" aria-hidden="true">
-          <div className="about-badge badge-one">React</div>
-          <div className="about-badge badge-two">Laravel</div>
-          <div className="about-badge badge-three">MLM</div>
+          <div className="about-tech-cluster cluster-one">
+            <span className="cluster-node" />
+            <span className="cluster-node" />
+            <span className="cluster-node" />
+            <span className="cluster-link link-a" />
+            <span className="cluster-link link-b" />
+          </div>
+          <div className="about-tech-cluster cluster-two">
+            <span className="cluster-node small" />
+            <span className="cluster-node small" />
+            <span className="cluster-node small" />
+            <span className="cluster-link vertical" />
+            <span className="cluster-link horizontal" />
+          </div>
+          <div className="about-tech-chip chip-one" />
+          <div className="about-tech-chip chip-two" />
           <div className="about-desk-card">
             <div className="about-window">
               <span />
@@ -60,10 +73,10 @@ function AboutPage() {
         <article className="about-story-card feature-panel">
           <div className="about-card-copy">
             <p className="card-label">What keeps me interested</p>
-            <h3>Frontend clarity with backend discipline.</h3>
+            <h3>Programming depth with dependable software structure.</h3>
             <p>
-              I am most comfortable on projects that need clean user flows, structured APIs, and
-              data models that stay readable as the system grows.
+              I am most comfortable on projects that need strong logic, structured APIs, and data
+              models that stay readable as the system grows.
             </p>
           </div>
           <div className="side-illustration browser-illustration" aria-hidden="true">
